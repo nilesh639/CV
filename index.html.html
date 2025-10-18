@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nilesh Singh - Designer CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212; /* dark background */
+      color: #e0e0e0; /* light text for dark theme */
+    }
+    a { text-decoration: none; transition: 0.3s; }
+
+    .container {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(135deg, #6a0dad, #9b30ff);
+      color: white;
+      padding: 30px;
+      border-radius: 15px;
+      flex-wrap: wrap;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: 1px;
+    }
+    .header-info p {
+      margin: 6px 0;
+      opacity: 0.9;
+    }
+
+    .contact { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+
+    /* Facebook placement with extra right spacing */
+    .social { margin-top: 15px; margin-left: 20px; }
+    .social a.facebook { color: #1877f2; font-weight: 600; }
+
+    /* Section Card */
+    .section {
+      background: #1e1e1e; /* dark section background */
+      margin-top: 20px;
+      padding: 25px 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+    h2 {
+      font-size: 22px;
+      color: #9b30ff;
+      margin-bottom: 15px;
+      position: relative;
+    }
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 50px;
+      height: 3px;
+      background: #9b30ff;
+      border-radius: 3px;
+    }
+
+    ul.skills {
+      list-style-type: disc;
+      padding-left: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    ul.skills li {
+      background: #3c0070;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #2a2a2a;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.5);
+    }
+    .project-card a {
+      color: #9b30ff;
+      font-weight: 500;
+    }
+
+    .footer {
+      text-align: center;
+      color: #aaa;
+      margin: 30px 0 50px;
+      font-size: 14px;
+    }
+
+    @media(max-width:700px){
+      .header { flex-direction: column; text-align: center; }
+      .header-info { text-align: center; }
+      .contact { justify-content: center; }
+      ul.skills { justify-content: center; }
+      .social { margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-info">
+      <h1>Nilesh Singh</h1>
+      <p>💼 Freelancer | 📍 Bhaktapur, Nepal</p>
+      <div class="contact">
+        <p>📞 9841450316</p>
+        <p>✉️ singhnilesh639@gmail.com</p>
+      </div>
+      <div class="social">
+        <a href="https://www.facebook.com/ninzaa.nilesh.9" class="facebook" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Profile Summary -->
+  <div class="section">
+    <h2>Profile Summary</h2>
+    <p>Creative and adaptable digital professional with hands-on experience in digital marketing, web design, and AI tools. Quick to learn and passionate about delivering practical, high-quality solutions. Enjoys taking on diverse projects and turning ideas into results.</p>
+  </div>
+
+  <!-- Skills -->
+  <div class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>AI Tools</li>
+      <li>SEO</li>
+      <li>Decision Making</li>
+      <li>Problem Solving</li>
+      <li>Digital Marketing</li>
+      <li>Web Designing</li>
+      <li>Graphic Design</li>
+      <li>Copywriting</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <h2>Experience</h2>
+    <p><strong>Freelancer</strong> (2023–2025)</p>
+    <ul>
+      <li>Delivered digital marketing campaigns to improve client visibility and engagement.</li>
+      <li>Designed a <strong>responsive login system</strong> and other web pages, ensuring seamless user experience across devices.</li>
+      <li>Leveraged AI tools to optimize content creation and workflow efficiency.</li>
+      <li>Completed freelance projects on time while maintaining high quality.</li>
+    </ul>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <h2>Education</h2>
+    <p><strong>Bachelor in Computer Applications (BCA)</strong> – Everest College (affiliated with Tribhuvan University) (2023–Present)</p>
+    <p>Focused on programming, web development, and digital technologies.</p>
+  </div>
+
+  <!-- Projects / Portfolio -->
+  <div class="section">
+    <h2>Projects / Portfolio</h2>
+    <div class="projects">
+      <div class="project-card">
+        <strong>Responsive Login Page</strong>
+        <p>Fully functional and responsive login system for seamless user experience.</p>
+        <a href="https://nilesh639.github.io/loginpage/" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <strong>School Project Website</strong>
+        <p>Created a complete website as part of a school project, demonstrating design and coding skills.</p>
+        <a href="https://nilesh639.github.io/elite/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2025 Nilesh Singh. All Rights Reserved.</p>
+  </div>
+
+</div>
+
+</body>
+</html>
+
